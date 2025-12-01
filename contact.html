@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hubungi Kami - PT Gloria Sentosa</title>
+    <meta name="description"
+        content="Hubungi tim PT Gloria Sentosa untuk konsultasi gratis mengenai kebutuhan pengembangan software dan solusi IT bisnis Anda.">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    
+    <header>
+        <div class="container navbar">
+            <a href="index.html" class="logo">PT Gloria Sentosa</a>
+            <div class="mobile-toggle">☰</div>
+            <nav class="nav-links">
+                <a href="index.html">Beranda</a>
+                <a href="about.html">Tentang Kami</a>
+                <a href="services.html">Layanan</a>
+                <a href="portfolio.html">Portofolio</a>
+                <a href="contact.html" class="active">Hubungi Kami</a>
+                <a href="contact.html" class="btn btn-primary" style="color: var(--text-main);">Hubungi Kami</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" style="min-height: 350px; padding-bottom: 60px;">
+        <div class="container text-center animate-on-scroll">
+            <h1>Mulai Disini Sekarang</h1>
+            <p style="max-width: 700px; margin: 0 auto; color: rgba(255,255,255,0.9);">Tim Kami Siap Membantu Anda</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="grid-3" style="grid-template-columns: 1fr 1fr; gap: 60px;">
+                <div class="animate-on-scroll">
+                    <h2 class="mb-2">Kirim Pesan</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Nama Anda</label>
+                            <input type="text" id="name" class="form-control" placeholder="Nama...." required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company" class="form-label">Nama Perusahaan</label>
+                            <input type="text" id="company" class="form-control" placeholder="Perusahaan Anda">
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Bisnis</label>
+                            <input type="email" id="email" class="form-control" placeholder="email perusahaan yaaa" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service" class="form-label">Layanan Diminati</label>
+                            <select id="service" class="form-control">
+                                <option value="">Pilih Layanan...</option>
+                                <option value="web">Web Development</option>
+                                <option value="mobile">Mobile APP DEVELOPMENT</option>
+                                <option value="cloud">Cloud Services</option>
+                                <option value="system">Sistem Enterprise</option>
+                                <option value="other">Lainnya</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Pesan Anda</label>
+                            <textarea id="message" class="form-control"
+                            placeholder="Ceritakan apa yang anda inginkan...." required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label style="display: flex; align-items: center; gap: 10px; font-size: 0.9rem; color: var(--text-light);">
+                               <input type="checkbox" required>Saya menyetujui kebijakan privasi</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Kirim Pesan!</button>
+                    </form>
+                </div>
